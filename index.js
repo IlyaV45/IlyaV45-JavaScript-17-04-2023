@@ -1,27 +1,16 @@
 
-let userName = 'Brad';
 let userAge;
-userAge = 69;
+userAge = 23;
 
-const userDataOfBirth = "11_01_1991";
+const isUserAdult = true;
+let userEmail;
 
-// console.log(userName);
-// console.log(userAge);
+userEmail = 'user@gmail.com';
 
-userAge = 60;
-userName = "Bradly";
+let userProgrammingLanguage;
+userProgrammingLanguage = "C++";
 
-const genderUser = "male";
+const isUserPet = false;
 
-const AMOUNT_DAYS_WEEK = 7;
+const AMOUNT_SEASON_YEAR = 4;
 
-
-
-
-let number = 12;
-
-{
-let number = 45;
-console.log(number);
-}
-console.log(number);
