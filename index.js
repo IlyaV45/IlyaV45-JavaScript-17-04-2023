@@ -1,32 +1,24 @@
 
-let number1 = 5;
+// let number1 = '12';
+// let number2 = '102';
 
-let number2 = 10;
+// console.log(number1 < number2);
+// console.log(number1 <= number2);
+// console.log(number1 > number2);
+// console.log(number1 >= number2);
 
-let number3 = 15;
+// const str1 = 'cat';
+// const str2 = 'dog';
+// console.log(str1<str2);
 
-number1 ++;
-console.log('number1',number1 ++);
+let number1 = 50;
+const str1 = '50';
 
-number2%3;
-console.log('number2',number2%3);
+console.log(number1 < str1);
+console.log(number1 > str1);
 
-number3**2;
-console.log('number3', number3**2);
+console.log(true >= false); //1>0
 
-let result = number1++ + number2%3 + number3**2;
-console.log('result', result);
 
-let num = '12';
-console.log(num);
-num*2;
-console.log('num', num*2);
 
-let num1 = "17";
-console.log(num1);
-num1*5;
-console.log('num1', num*5);
-
-let result1 = num + num1;
-console.log(result1);
 
