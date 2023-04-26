@@ -1,12 +1,11 @@
 
-const condition1 = 2 && true && 'qwe' && Nan;
-console.log(condition1);
+const number = 12;
+const numberError = 55;
+const min = 10;
+const max = 20;
 
-const condition2 = 2 || true || 'qwe' || Nan;
-console.log(condition2);
-
-const condition3 = false ?? "default";
-console.log(condition3);
+console.log(number> min && number<max);
+console.log(numberError<=min || numberError>=max);
 
 
 
