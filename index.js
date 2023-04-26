@@ -1,11 +1,15 @@
 
-const number = 12;
-const numberError = 55;
-const min = 10;
-const max = 20;
+const condition = ('qwe' || null) && (12 || undefined);
+if (condition) {
+   console.log('condition = ', condition) 
+}
 
-console.log(number> min && number<max);
-console.log(numberError<=min || numberError>=max);
+const condition1 = 0/0;
+// if (condition1 === NaN) 
+if(Number.isNaN(condition1)){
+   console.log('condition = ', condition) 
+}
+
 
 
 
